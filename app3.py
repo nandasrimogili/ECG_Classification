@@ -28,7 +28,7 @@ def preprocess_and_save_single(uploaded_file, output_folder):
     # Check if uploaded image dimensions match the expected dimensions
     # Define the expected dimensions and tolerance
     expected_dimensions = [(2213, 1572)]
-    dimension_tolerance = 50  # You can adjust this value as needed
+    dimension_tolerance = 20  # You can adjust this value as needed
     # Load the ECG image
     image = np.array(Image.open(image_path))
 
